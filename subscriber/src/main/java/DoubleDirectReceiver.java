@@ -5,6 +5,7 @@ public class DoubleDirectReceiver {
     private static final String EXCHANGE_NAME = "DoubleDirect";
 
     public static void main(String[] argv) throws Exception {
+
         ConnectionFactory factory = new ConnectionFactory();
         factory.setHost("localhost");
         Connection connection = factory.newConnection();
